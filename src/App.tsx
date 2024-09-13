@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>¿Puedo faltar a Riobamba?</h1>
+      <h1>¿Me prestas tu cargador?</h1>
        <button className="yes-button" onClick={handleYesClick}>Sí</button>
       <button
         className="no-button"
