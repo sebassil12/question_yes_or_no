@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>¿Quieres ser mi novia?</h1>
+      <h1>¿Puedo faltar a Riobamba?</h1>
        <button className="yes-button" onClick={handleYesClick}>Sí</button>
       <button
         className="no-button"
@@ -35,7 +35,7 @@ function App() {
           <div className="modal">
             <h2>¡Sabia que elegirias el "Sí"! ❤️</h2>
             <img src='/love.jpg' />
-            <h2>¡Yo también te amo! ❤️</h2>
+            {/* <h2>¡Yo también te amo! ❤️</h2> */}
             <button onClick={handleCloseModal}>Cerrar</button>
           </div>
         </div>
